@@ -1,7 +1,6 @@
 "use client";
-
-import DashboardLayout from "@/components/DashBoardLayout/page";
-import MobileTopNavbar from "@/components/MobileTapbar/page";
+import DashboardLayout from "@/components/DashBoardLayout";
+import MobileTopNavbar from "@/components/MobileTapbar";
 
 const Material = () => {
   // Material Produsts

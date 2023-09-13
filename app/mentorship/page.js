@@ -1,10 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import DashboardLayout from "@/components/DashBoardLayout/page";
+import DashboardLayout from "@/components/DashBoardLayout";
 import { IoIosArrowDown } from "react-icons/io";
 import VideoTab from "./VideoTab";
 import AudioTab from "./AudioTab";
-import MobileTopNavbar from "@/components/MobileTapbar/page";
+import MobileTopNavbar from "@/components/MobileTapbar";
 
 const YourComponent = () => {
   const [selectedCourse, setSelectedCourse] = useState("");

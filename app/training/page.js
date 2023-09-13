@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import DashboardLayout from "@/components/DashBoardLayout/page";
+import DashboardLayout from "@/components/DashBoardLayout";
 import SingleTraingpage from "./singleTraingpage";
 import TrainingMain from "./Trainingmain";
 

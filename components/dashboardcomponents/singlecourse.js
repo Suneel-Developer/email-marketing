@@ -3,7 +3,7 @@ import { useState, useRef } from "react";
 import { FaPlay, FaPause } from "react-icons/fa";
 import Image from "next/image";
 import VideoImage from "../../public/assets/singlecourse.png";
-import MobileTopNavbar from "@/components/MobileTapbar/page";
+import MobileTopNavbar from "@/components/MobileTapbar";
 import { IoPlay, IoPause } from "react-icons/io5";
 
 const SingleCourse = () => {

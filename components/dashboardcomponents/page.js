@@ -1,8 +1,8 @@
 "use client";
+import DashboardLayout from "@/components/DashBoardLayout/page";
 import React, { useState } from "react";
-import Courses from "@/components/dashboardcomponents/courses";
-import SingleCourse from "@/components/dashboardcomponents/singlecourse";
-import DashboardLayout from "@/components/DashBoardLayout";
+import Courses from "../../components/dashboardcomponents/courses";
+import SingleCourse from "../../components/dashboardcomponents/singlecourse";
 
 const Dashboard = () => {
   const [showSinglepage, setShowSinglepage] = useState(false);

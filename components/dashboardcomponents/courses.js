@@ -1,6 +1,6 @@
 "use client";
 
-import MobileTopNavbar from "@/components/MobileTapbar/page";
+import MobileTopNavbar from "@/components/MobileTapbar";
 
 const Courses = ({ onHandleShowSinglepage }) => {
   // handle Show Single Course Function

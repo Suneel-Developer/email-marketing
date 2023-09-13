@@ -19,7 +19,7 @@ const MobileNavigation = () => {
   const Menus = [
     { icon: <AiFillHome />, href: "/mobiledashboard" },
     { icon: <FaUsersGear />, href: "/mentorship" },
-    { icon: <FiSearch />, href: "/search" },
+    { icon: <FiSearch />, href: "" },
     { icon: <HiMiniUser />, href: "/profile" },
   ];
 

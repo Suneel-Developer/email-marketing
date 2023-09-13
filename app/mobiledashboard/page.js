@@ -1,6 +1,7 @@
+"use client"
 import React from "react";
 import Link from "next/link";
-import DashboardLayout from "../../components/DashBoardLayout/page";
+import DashboardLayout from "@/components/DashBoardLayout";
 
 const MobileDashboard = () => {
   return (

@@ -1,8 +1,9 @@
-import DashboardLayout from "@/components/DashBoardLayout/page";
-import MobileTopNavbar from "@/components/MobileTapbar/page";
-import React from "react";
+"use client"
+import DashboardLayout from '../../components/DashBoardLayout'
+import MobileTopNavbar from "../../components/MobileTapbar";
 
 const Profile = () => {
+  
   return (
     <DashboardLayout>
       <div className="bg-primary md:bg-white md:hidden block">

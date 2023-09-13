@@ -1,6 +1,6 @@
-import MobileNavigation from "../MobileNavigation/page";
-import Navbar from "../Navbar/page";
-import Sidebar from "../Sidebar/page";
+import MobileNavigation from "../MobileNavigation";
+import Navbar from "../Navbar";
+import Sidebar from "../Sidebar";
 
 const DashboardLayout = ({ children }) => {
   return (

@@ -1,10 +1,8 @@
 "use client";
 import { useState, useRef } from "react";
 import { IoPlay, IoPause } from "react-icons/io5";
-import Image from "next/image";
 import { IoIosArrowDown } from "react-icons/io";
-import VideoImage from "../../public/assets/singlecourse.png";
-import MobileTopNavbar from "@/components/MobileTapbar/page";
+import MobileTopNavbar from "@/components/MobileTapbar";
 
 const SingleTraingpage = () => {
   const [selectedOption, setSelectedOption] = useState("");

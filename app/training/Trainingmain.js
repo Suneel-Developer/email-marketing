@@ -1,5 +1,5 @@
 "use client";
-import MobileTopNavbar from "@/components/MobileTapbar/page";
+import MobileTopNavbar from "@/components/MobileTapbar";
 import React, { useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 

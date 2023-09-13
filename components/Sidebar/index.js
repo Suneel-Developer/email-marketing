@@ -8,7 +8,6 @@ const Sidebar = () => {
   const pathname = usePathname();
 
   // Check if the screen width is less than or equal to a mobile breakpoint (e.g., 640px)
-  const isMobile = window.innerWidth <= 640;
   return (
     <div className="w-[23%] shadow-sidebarshadow h-screen hidden lg:flex flex-col z-10">
       {/* User Profile  */}
